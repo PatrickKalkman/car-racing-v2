@@ -9,9 +9,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 torch = "2.0.1"
-stable-baselines3 = "2.0.0"
+stable-baselines3 = {extras = ["extra"], version = "^2.3.2"}
 gymnasium = {version = "0.28.1", extras = ["box2d"]}
 tensorboard = "2.10.1"
+tqdm = "^4.66.5"
 
 
 [build-system]
